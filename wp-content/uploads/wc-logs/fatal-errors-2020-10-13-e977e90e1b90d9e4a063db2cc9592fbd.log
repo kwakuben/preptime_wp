@@ -1,0 +1,9 @@
+2020-10-13T17:30:19+00:00 CRITICAL Uncaught Error: Class 'Automattic\WooCommerce\Admin\Notes\WC_Admin_Notes_Test_Checkout' not found in /home/exampre1/pay.exampreptime.com/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/FeaturePlugin.php:192
+Stack trace:
+#0 /home/exampre1/pay.exampreptime.com/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/FeaturePlugin.php(139): Automattic\WooCommerce\Admin\FeaturePlugin->includes()
+#1 /home/exampre1/pay.exampreptime.com/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/FeaturePlugin.php(80): Automattic\WooCommerce\Admin\FeaturePlugin->on_plugins_loaded()
+#2 /home/exampre1/pay.exampreptime.com/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Package.php(80): Automattic\WooCommerce\Admin\FeaturePlugin->init()
+#3 [internal function]: Automattic\WooCommerce\Admin\Composer\Package::init()
+#4 /home/exampre1/pay.exampreptime.com/wp-content/plugins/woocommerce/src/Packages.php(69): call_user_func(Array)
+#5 /home/exampre1/pay.exampreptime.com/wp-content/plugins/woo in /home/exampre1/pay.exampreptime.com/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/FeaturePlugin.php on line 192
+
